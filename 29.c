@@ -1,3 +1,9 @@
+//Akshay Sharma
+//MT20240161
+/*
+Write a program to get the scheduling policy and modify the scheduling policy (SCHED_FIFO, SCHED_RR).
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

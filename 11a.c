@@ -1,3 +1,7 @@
+//Akshay Sharma
+//MT2024016
+// Question: Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not using `dup`
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

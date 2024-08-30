@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT20240161
 // Write a program to get maximum and minimum real time priority.
 
 #include <stdio.h>

@@ -1,3 +1,7 @@
+//Akshay Sharma
+//MT2024016
+// Question : Write a program to create an orphan process
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>

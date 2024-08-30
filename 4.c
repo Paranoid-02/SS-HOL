@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 // Question : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
 
 #include <sys/types.h> // Import for `open` system call

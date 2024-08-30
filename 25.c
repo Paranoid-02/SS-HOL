@@ -1,3 +1,8 @@
+//Akshay Sharma
+//MT20240161
+// Question : Write a program to create three child processes. The parent should wait for a particular child (use `waitpid` system call).
+
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>

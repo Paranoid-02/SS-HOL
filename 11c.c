@@ -1,3 +1,6 @@
+//Akshay Sharma
+//MT2024016
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

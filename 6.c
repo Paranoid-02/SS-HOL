@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 // Question: Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
 
 #include <unistd.h> // Import for `read` & `write` system call

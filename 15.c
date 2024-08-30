@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 // Question : Write a program to display the environmental variable of the user (use environ).
 
 #include <stdio.h>

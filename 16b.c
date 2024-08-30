@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 /*
 Question: Write a program to perform mandatory locking. 
     - Implement read lock 

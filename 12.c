@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 // Question: Write a program to find out the opening mode of a file. Use `fcntl`
 
 #include <sys/types.h> // Import for `open` system call

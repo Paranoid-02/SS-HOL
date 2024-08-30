@@ -1,3 +1,5 @@
+//Akshay Sharma
+//MT2024016
 // Q.Write a program to create a Zombie state of the running program.
 
 #include <stdio.h>

@@ -1,3 +1,18 @@
+//Akshay Sharma
+//MT2024016
+/* Question : Write a program to print the following information about a given file - 
+    1. Inode 
+    2. Number of hard links 
+    3. UID 
+    4. GID 
+    5. Size 
+    6. Block size 
+    7. Number of blocks 
+    8. Time of last access 
+    9. Time of last modification 
+    10. Time of last change
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>
