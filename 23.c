@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT2024016
-// Q.Write a program to create a Zombie state of the running program.
+/*
+============================================================================
+Name : 23.c
+Author : Akshay Sharma
+Description : Write a program to create a Zombie state of the running program.
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <unistd.h>

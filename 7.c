@@ -1,9 +1,11 @@
-/**
- (7)Write a program to copy file1 into file2.
- Akshay Sharma
- MT2024016
- */
-
+/*
+============================================================================
+Name : 7.c
+Author : Akshay Sharma
+Description : Write a program to copy file1 into file2.
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include<stdio.h>
 #include<stdlib.h>

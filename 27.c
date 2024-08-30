@@ -1,12 +1,15 @@
-//Akshay Sharma
-//MT20240161
 /*
-Q. Write a program to execute `ls -Rl` by the following system calls 
+============================================================================
+Name : 27.c
+Author : Akshay Sharma
+Description:  Write a program to execute `ls -Rl` by the following system calls 
     1. `execl` 
     2. `execlp` 
     3. `execle` 
     4. `execv` 
     5. `execvp`
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include <stdio.h>

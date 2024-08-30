@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT2024016
-// Question: Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not using `dup`
+/*
+============================================================================
+Name : 11a.c
+Author : Akshay Sharma
+Description : Write a program to open a file, duplicate the file descriptor and append the file with both the descriptors and check whether the file is updated properly or not using `dup`
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <fcntl.h>

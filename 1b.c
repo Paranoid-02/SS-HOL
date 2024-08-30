@@ -1,5 +1,11 @@
-//Akshay Sharma MT2024016
-//Hard link (link system call) 
+/*
+============================================================================
+Name : 1b.c
+Author : Akshay Sharma
+Description : Link System Call - Hard Link
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include<stdio.h>
 #include<unistd.h>

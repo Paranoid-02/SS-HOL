@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT2024016
-// Write a program, call fork and print the parent and child process id.
+/*
+============================================================================
+Name : 21.c
+Author : Akshay Sharma
+Description : Write a program, call fork and print the parent and child process id. 
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <unistd.h>

@@ -1,6 +1,12 @@
-//Akshay Sharma
-//MT2024016
-// Question : Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+/*
+============================================================================
+Name : 19.c
+Author : Akshay Sharma
+Description : Write a program to find out time taken to execute getpid system call. Use time stamp counter. 
+Date: 28th Aug, 2024.
+============================================================================
+*/
+
 
 #include <stdio.h>
 #include <stdint.h>

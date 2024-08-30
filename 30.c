@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT20240161
-//Write a program to run a script at a specific time using a Daemon process.
+/*
+============================================================================
+Name : 30.c
+Author : Akshay Sharma
+Description: Write a program to run a script at a specific time using a Daemon process.
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <unistd.h>
 #include <sys/stat.h>

@@ -1,6 +1,12 @@
-//Akshay Sharma
-//MT2024016
-// Question: Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+/*
+============================================================================
+Name : 6.c
+Author : Akshay Sharma
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+Date: 28th Aug, 2024.
+============================================================================
+*/
+
 
 #include <unistd.h> // Import for `read` & `write` system call
 #include <stdio.h>  // Import for `perror` function

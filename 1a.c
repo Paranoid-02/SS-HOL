@@ -1,5 +1,11 @@
-//Akshay Sharma MT2024016
-//Soft link (symlink system call) 
+/*
+============================================================================
+Name : 1a.c
+Author : Akshay Sharma
+Description : SymLink System Call - Soft Link
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include<stdio.h>
 #include<unistd.h>

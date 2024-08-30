@@ -1,8 +1,11 @@
-//Akshay Sharma
-//MT2024016
 /*
-Question: Write a program to perform mandatory locking. 
-    - Implement write lock 
+============================================================================
+Name : 16a.c
+Author : Akshay Sharma
+Description: Write a program to perform mandatory locking. 
+    - Implement write lock
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<unistd.h>

@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT2024016
-// Question : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+/*
+============================================================================
+Name : 4.c
+Author : Akshay Sharma
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <sys/types.h> // Import for `open` system call
 #include <sys/stat.h>  // Import for `open` system call

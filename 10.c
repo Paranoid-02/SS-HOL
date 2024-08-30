@@ -1,9 +1,14 @@
-//Akshay Sharma
-//MT2024016
-/*10. Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use `lseek`) and write again 10 bytes.
+/*
+============================================================================
+Name : 10.c
+Author : Akshay Sharma
+Description : Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use `lseek`) and write again 10 bytes.
     1. Check the return value of `lseek`
     2. Open the file with `od` and check the empty spaces in between the data.
- */
+Date: 28th Aug, 2024.
+============================================================================
+*/
+
 
 #include <stdio.h>
 #include <unistd.h>

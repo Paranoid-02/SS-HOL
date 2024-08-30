@@ -1,6 +1,12 @@
-//Akshay Sharma
-//MT2024016
-// Question : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
+/*
+============================================================================
+Name : 5.c
+Author : Akshay Sharma
+Description : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
+Date: 28th Aug, 2024.
+============================================================================
+*/
+
 
 #include <sys/types.h> // Import for `creat` system call
 #include <sys/stat.h>  // Import for `creat` system call

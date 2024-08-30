@@ -1,6 +1,11 @@
-//Akshay Sharma
-//MT20240161
-// Write a program to get maximum and minimum real time priority.
+/*
+============================================================================
+Name : 28.c
+Author : Akshay Sharma
+Description: Write a program to get maximum and minimum real time priority.
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <sched.h>

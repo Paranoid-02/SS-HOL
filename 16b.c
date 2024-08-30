@@ -1,9 +1,14 @@
-//Akshay Sharma
-//MT2024016
 /*
-Question: Write a program to perform mandatory locking. 
+============================================================================
+Name : 16b.c
+Author : Akshay Sharma
+Description: Write a program to perform mandatory locking. 
     - Implement read lock 
+Date: 28th Aug, 2024.
+============================================================================
 */
+
+
 
 #include<unistd.h>
 #include<fcntl.h>

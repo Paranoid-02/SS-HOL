@@ -1,12 +1,18 @@
-//Akshay Sharma
-//MT2024016
-// Question : Write a program to create an orphan process
+/*
+============================================================================
+Name : 24.c
+Author : Akshay Sharma
+Description : Write a program to create an orphan process
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
 
-int main()
+              int
+              main()
 {
     pid_t pid;
     pid = fork();

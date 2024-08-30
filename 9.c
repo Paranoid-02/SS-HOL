@@ -1,6 +1,8 @@
-//Akshay Sharma
-//MT2024016
-/* Question : Write a program to print the following information about a given file - 
+/*
+============================================================================
+Name : 9.c
+Author : Akshay Sharma
+Description : Write a program to print the following information about a given file - 
     1. Inode 
     2. Number of hard links 
     3. UID 
@@ -11,6 +13,7 @@
     8. Time of last access 
     9. Time of last modification 
     10. Time of last change
+============================================================================
 */
 
 #include <stdio.h>

@@ -1,11 +1,16 @@
-//Akshay Sharma
-//MT2024016
-// Question : Write a program to display the environmental variable of the user (use environ).
+/*
+============================================================================
+Name : 15.c
+Author : Akshay Sharma
+Description : Write a program to display the environmental variable of the user(use environ).
+Date: 28th Aug, 2024.
+============================================================================
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+              int main()
 {
     extern char **environ; // Declare the environ array
 
