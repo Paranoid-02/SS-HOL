@@ -1,6 +1,6 @@
 /*
 ============================================================================
-Name : 21.c
+Name : 29.c
 Author : Akshay Sharma
 Description: Write a program to get the scheduling policy and modify the scheduling policy (SCHED_FIFO, SCHED_RR).
 Date: 28th Aug, 2024.
