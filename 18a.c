@@ -50,7 +50,7 @@ int main()
 }
 
 /*
-@akshay~$ cc 18.c
+@akshay~$ cc 18a.c
 @akshay~$ ./a.out
 Enter the train no (1,2,3,4)3
 PLease wait 
