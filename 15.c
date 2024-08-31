@@ -10,7 +10,7 @@ Date: 28th Aug, 2024.
 #include <stdio.h>
 #include <stdlib.h>
 
-              int main()
+int main()
 {
     extern char **environ; // Declare the environ array
 
@@ -21,3 +21,15 @@ Date: 28th Aug, 2024.
 
     return 0;
 }
+
+/*
+akshay~$cc 15.c             
+akshay~$./a.out 
+MallocNanoZone=0
+USER=akshay
+COMMAND_MODE=unix2003
+__CFBundleIdentifier=com.microsoft.VSCode
+.
+.
+.
+*/

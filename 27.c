@@ -41,3 +41,14 @@ int main() {
 
     return 0;
 }
+
+/*
+Using execlp:
+total 408
+-rw-r--r--  1 akshay  staff   1384 Aug 31 09:35 10.c
+-rw-r--r--  1 akshay  staff   1064 Aug 31 09:35 11a.c
+-rw-r--r--  1 akshay  staff   1335 Aug 31 09:35 11b.c
+.
+.
+.
+*/

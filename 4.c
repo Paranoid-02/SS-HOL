@@ -13,7 +13,7 @@ Date: 28th Aug, 2024.
 #include <unistd.h>    // Import for `write` call
 #include <stdio.h>     // Import for `printf` & `perror` function
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 
     char *filename;
@@ -33,3 +33,8 @@ void main(int argc, char *argv[])
             printf("The file was successfully created with the file descriptor -> %dn", fileDescriptor);
     }
 }
+
+/*
+akshay~$./a.out my_file.txt
+The file was successfully created with the file descriptor -> 3
+*/

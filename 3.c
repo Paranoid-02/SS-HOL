@@ -23,3 +23,8 @@ int main() {
 
     return 0;
 }
+
+/*
+akshay~$./a.out                
+File descriptor: 3
+*/

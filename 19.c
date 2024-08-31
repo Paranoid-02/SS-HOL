@@ -39,3 +39,8 @@ int main()
 
     return 0;
 }
+
+
+/*
+Time taken by getpid: 5510 cycles
+*/

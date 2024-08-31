@@ -7,7 +7,6 @@ Date: 28th Aug, 2024.
 ============================================================================
 */
 
-
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -50,3 +49,10 @@ int main(int argc, char *argv[])
     close(fd);
     close(10);
 }
+
+/*
+akshay~$cc 11b.c
+akshay~$./a.out my_file.txt
+akshay~$cat my_file.txt
+ABCEDEFGHI1234567890Hello, World!Hello, World!%
+*/

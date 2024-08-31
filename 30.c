@@ -29,3 +29,11 @@ int main()
     else
         exit(0);
 }
+
+/*
+Daemon process is running
+child process=6758
+Daemon process is running
+child process=6758
+Daemon process is running
+*/

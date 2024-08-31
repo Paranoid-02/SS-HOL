@@ -38,3 +38,11 @@ int main()
     else // select timed out
         printf("No data was given in 10 seconds");
 }
+
+/*
+akshay~$cc 13.c             
+akshay~$./a.out             
+Waiting for input for 10 seconds...
+Hello
+Data is available now
+*/

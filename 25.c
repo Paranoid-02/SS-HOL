@@ -84,3 +84,11 @@ int main()
 
     return 0;
 }
+
+/*
+first child pid:37950
+second child pid:37951
+Parent process (PID:37949)
+third child pid:37952
+Second child process (PID: 37951) exited with status 2
+*/

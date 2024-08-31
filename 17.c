@@ -65,7 +65,7 @@ int main() {
 }
 
 /*
-    @akshay~$
+    akshay~$
     Before entering into critical section
     Inside the critical section
     Current ticket number: 10

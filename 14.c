@@ -10,7 +10,6 @@ Date: 28th Aug, 2024.
 */
 
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>
@@ -61,3 +60,9 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+
+/*
+akshay~$./a.out my_file2.txt 
+File type: Regular file
+*/

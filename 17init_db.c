@@ -43,6 +43,6 @@ int main() {
 }
 
 /*
-    @akshay~$
+    akshay~$
     Ticket no: 10
 */

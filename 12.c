@@ -13,8 +13,7 @@ Date: 28th Aug, 2024.
 #include <unistd.h>    // Import for `fcntl` system call
 #include <stdio.h>
 
-              int
-              main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     char *filename;     // File name of the source file
     int fileDescriptor; // File descriptor of the source file
@@ -91,3 +90,8 @@ Date: 28th Aug, 2024.
         }
     }
 }
+
+/*
+akshay~$./a.out my_file2.txt
+The file has been opened with the flags : O_RDONLY
+*/

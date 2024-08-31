@@ -30,3 +30,9 @@ int main() {
 
     return 0;
 }
+
+/*
+akshay~$./a.out 
+Current priority of process with pid 37181: 0
+New priority of process with pid 37181: 10
+*/

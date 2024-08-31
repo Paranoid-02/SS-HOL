@@ -15,37 +15,35 @@ Date: 28th Aug, 2024.
 
 int main(int argc, char *argv[])
 {
-    char *file;
-    int fd;
-    int dupfd;
-
-    file = argv[1];
-    fd = open(file, O_WRONLY | O_APPEND | O_CREAT, 0644);
-    if (fd == -1)
+    if (argc != 2)
     {
-        perror("Didn't write");
+        printf("Pass filename as parameter");
     }
-
-    // Duplicate the file descriptor using dup2
-    dupfd = fcntl(fd, F_DUPFD); // Duplicate to file descriptor 10
-    if (dupfd == -1)
+    else
     {
-        perror("dup2");
-        close(fd);
-    }
+        int fd = open(argv[1], O_WRONLY | O_CREAT | O_APPEND);
+        if (fd == -1)
+        {
+            printf("Problem while opening the file");
+            return 0;
+        }
+        int dupfd = fcntl(fd, F_DUPFD);
+        if (dupfd == -1)
+        {
+            printf("Problem while duplicating the file");
+            return 0;
+        }
+        int writecount = write(dupfd, "Using duplicate File descriptor", 31);
+        if (writecount == -1)
+        {
+            printf("Problem while writing the file");
+        }
 
-    // Write to the file using the original descriptor
-    if (write(fd, "Hello, ", 7) != 7)
-    {
-        perror("write");
+        return 0;
     }
-
-    // Write to the file using the duplicated descriptor
-    if (write(10, "World!", 6) != 6)
-    {
-        perror("write");
-    }
-
-    close(fd);
-    close(10);
 }
+
+/*
+akshay~$ cat file11c.txt
+Using duplicate File descriptor
+*/

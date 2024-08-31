@@ -13,7 +13,7 @@ Description : Write a program to open a file in read only mode, read line by lin
 const char EOL = '\n';
 
 int main(){
-   FILE* fd = fopen("file1","r");
+   FILE* fd = fopen("file.txt","r");
    if(fd == NULL){
 	perror("INVALID FILE");
 	exit(0);
@@ -37,3 +37,8 @@ int main(){
 	fclose(fd);
 	return 0;  
 }
+
+/*
+Hello World!
+Hello World!
+*/

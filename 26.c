@@ -13,8 +13,8 @@ Date: 28th Aug, 2024.
 
 int main()
 {
-    char *executable_path = "./16b.c";
-    char *arg = "file.txt";
+    char *executable_path = "./14.c";
+    char *arg = "14.c";
 
     execl(executable_path, executable_path, arg, NULL);
 }

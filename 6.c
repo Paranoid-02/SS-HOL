@@ -11,7 +11,7 @@ Date: 28th Aug, 2024.
 #include <unistd.h> // Import for `read` & `write` system call
 #include <stdio.h>  // Import for `perror` function
 
-void main()
+int main()
 {
     char *buffer[100];
     int readByteCount, writeByteCount;
@@ -27,3 +27,11 @@ void main()
         }
     }
 }
+
+/*
+akshay~$./a.out            
+Wassup?
+Wassup?
+I am good
+I am good
+*/

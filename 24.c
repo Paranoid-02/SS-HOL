@@ -11,8 +11,7 @@ Date: 28th Aug, 2024.
 #include <unistd.h>
 #include <sys/types.h>
 
-              int
-              main()
+int main()
 {
     pid_t pid;
     pid = fork();
@@ -47,4 +46,5 @@ akshay~$Child Process exiting...
 
 akshay~$ps -al
   UID   PID  PPID        F CPU PRI NI       SZ    RSS WCHAN     S             ADDR TTY           TIME CMD
-  501  6566     1        6   0  31  0 410077792    864 -      S                   0 ttys002    0:00.00 ./a.out*/
+  501  6566     1        6   0  31  0 410077792    864 -      S                   0 ttys002    0:00.00 ./a.out
+  */

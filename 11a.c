@@ -43,3 +43,9 @@ int main(int argc, char *argv[])
     close(fd);
     close(dupfd);
 }
+
+/*
+akshay~$./a.out my_file.txt
+akshay~$cat my_file.txt
+ABCEDEFGHI1234567890Hello, World!%
+*/

@@ -9,7 +9,6 @@ Date: 28th Aug, 2024.
 ============================================================================
 */
 
-
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -50,3 +49,11 @@ int main(int argc, char *argv[])
     printf("return value of lseek: %d\n", offset);
     close(fd);
 }
+
+/*
+akshay~$./a.out my_file.txt
+return value of lseek: 30
+
+akshay~$cat my_file.txt
+ABCEDEFGHI1234567890%
+*/
