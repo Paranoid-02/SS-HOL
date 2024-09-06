@@ -15,6 +15,7 @@ Date: 28th Aug, 2024.
 #include <sys/stat.h>  
 #include <stdio.h>     // For `printf`, `perror`, `getchar`
 
+
 int main() {
     struct flock lock;
     int fd;

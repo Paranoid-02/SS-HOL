@@ -42,5 +42,5 @@ int main()
 
 
 /*
-Time taken by getpid: 5510 cycles
+Time taken to execute getpid: 125 nanoseconds
 */
